@@ -5,7 +5,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../Style.css'
-import image from '../Images/images.jpg'
+import image from '../Images/images.webp'
 function Home() {
   return (
     <div className='home-space'>
