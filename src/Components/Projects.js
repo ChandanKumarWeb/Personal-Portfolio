@@ -12,7 +12,7 @@ function Projects() {
         <div className='container border-bottom border-danger pb-5'>
             <p className='small-heading'> MY PROJECTS</p>
             <p className='heading'>What I Have Done</p>
-            <div class="row row-cols-1 row-cols-lg-2 gy-5 g-lg-5 pt-5">
+            <div class="row row-cols-1 row-cols-lg-2 gy-5 g-lg-5 pt-4">
                 <div class="col card-col">
                     <Projectbox  image={trading_img} title="Trading Website Landing Page" discription="Responsive HTML/CSS layout for online Trading HTML5, CSS3 (SCSS)"/>
                 </div>

@@ -7,7 +7,7 @@ function Services() {
         <div className='container border-bottom border-danger pb-5'>
             <p className='small-heading'> MY SERVICES</p>
             <p className='heading'>What I Do</p>
-            <div className="row row-cols-2 row-cols-lg-3 g-4 g-lg-6 pt-5 ">
+            <div className="row row-cols-2 row-cols-lg-3 g-4 g-lg-6 pt-4 ">
               <div className='col boxes'>
                 <Servicebox iconName="laptopCode" 
                   title="Website Design" 
