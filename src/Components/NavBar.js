@@ -1,6 +1,7 @@
 import React ,{useState} from 'react'
 import { Link } from 'react-scroll'
 import '../Style.css'
+import cvPdf from '../Images/Projects/Chandan_Resume.pdf';
 function Navbar() {
     const[nav,setNav]=useState(false);
     const changeBackground = () =>{
@@ -26,7 +27,7 @@ function Navbar() {
           <li><Link to='#' smooth={true} duration={1000}>SERVICES</Link></li>
           <li><Link to='#' smooth={true} duration={1000}>WORKS</Link></li>
           <li><Link to='#' smooth={true} duration={1000}>CONTACT</Link></li>
-          <li><a href='blank' className='btn'>GET CV</a></li>
+          <li><a href={cvPdf}  className='btn'>GET CV</a></li>
         </ul>
     </nav>
   );
