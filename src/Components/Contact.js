@@ -9,7 +9,7 @@ import checked from '../Images/Contact-img/checked.png'
 
 function Contact() {
   return (
-    <div className='contact-us'>
+    <div id="contact-section" className='contact-us'>
         <div className='container border-bottom border-danger pb-5'>
             <p className='contact-small-heading'> CONTACT </p>
             <p className='contact-heading'>Contact With Me </p>

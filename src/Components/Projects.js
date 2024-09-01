@@ -8,7 +8,7 @@ import Projectbox from './Projectbox'
 
 function Projects() {
   return (
-    <div className='projects'>
+    <div id="project-section" className='projects'>
         <div className='container border-bottom border-danger pb-5'>
             <p className='small-heading'> MY PROJECTS</p>
             <p className='heading'>What I Have Done</p>

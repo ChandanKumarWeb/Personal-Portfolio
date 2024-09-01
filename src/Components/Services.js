@@ -3,7 +3,7 @@ import Servicebox from './Servicebox'
 import '../Style.css'
 function Services() {
   return (
-    <div className='services'>
+    <div id="services-section" className='services'>
         <div className='container border-bottom border-danger pb-5'>
             <p className='small-heading'> MY SERVICES</p>
             <p className='heading'>What I Do</p>

@@ -3,7 +3,7 @@ import Aboutbox from './Aboutbox'
 
 function About() {
   return (
-    <div className='about'>
+    <div id="about-section" className='about'>
         <div className='container border-bottom border-danger pb-5'>
             <p className='small-heading'> MY JOURNEY </p>
             <p className='heading'>About</p>
