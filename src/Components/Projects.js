@@ -23,7 +23,7 @@ function Projects() {
                     <Projectbox  image={scramble_img} title="Website For Fun In Free Time" discription="Responsive HTML/CSS layout for Fun HTML5, CSS3 (SCSS)"/>
                 </div>
                 <div class="col card-col">
-                    <Projectbox  image={react_portfolio} title="Trading Website" discription="Resposive Portfolio Website using HTML, CSS, BOOTSTRAP, REACT JS"/>
+                    <Projectbox  image={react_portfolio} title="Portfolio Using React" discription="Resposive Portfolio Website using HTML, CSS, BOOTSTRAP, REACT JS"/>
                 </div>
             </div>
 
