@@ -14,16 +14,16 @@ function Projects() {
             <p className='heading'>What I Have Done</p>
             <div class="row row-cols-1 row-cols-lg-2 gy-5 g-lg-5 pt-4">
                 <div class="col card-col">
-                    <Projectbox  image={trading_img} title="Trading Website Landing Page" discription="Responsive HTML/CSS layout for online Trading HTML5, CSS3 (SCSS)"/>
+                    <Projectbox  image={trading_img} title="Trading Website Landing Page" discription="Responsive HTML/CSS layout for online Trading HTML5, CSS3 (SCSS)" gitlink="https://github.com/ChandanKumarWeb/trading-demo-website" livelink="https://demo-trading-web.netlify.app/trading-instrument"/>
                 </div>
                 <div class="col card-col">
-                    <Projectbox  image={portfolio_img} title="Landing Page For Frontend Developer" discription="Responsive HTML/CSS layout for my Introduction HTML5, CSS3 (SCSS)"/>
+                    <Projectbox  image={portfolio_img} title="Landing Page For Frontend Developer" discription="Responsive HTML/CSS layout for my Introduction HTML5, CSS3 (SCSS)" gitlink="https://chandan-kumar-ray-portfolio.netlify.app/#" livelink="https://chandan-kumar-ray-portfolio.netlify.app/"/>
                 </div>
                 <div class="col card-col">
-                    <Projectbox  image={scramble_img} title="Website For Fun In Free Time" discription="Responsive HTML/CSS layout for Fun HTML5, CSS3 (SCSS)"/>
+                    <Projectbox  image={scramble_img} title="Website For Fun In Free Time" discription="Responsive HTML/CSS layout for Fun HTML5, CSS3 (SCSS)" gitlink="https://github.com/ChandanKumarWeb/scramble_word_js" livelink="https://srcramble-game.netlify.app/"/>
                 </div>
                 <div class="col card-col">
-                    <Projectbox  image={react_portfolio} title="Portfolio Using React" discription="Resposive Portfolio Website using HTML, CSS, BOOTSTRAP, REACT JS"/>
+                    <Projectbox  image={react_portfolio} title="Portfolio Using React" discription="Resposive Portfolio Website using HTML, CSS, BOOTSTRAP, REACT JS" gitlink="https://github.com/ChandanKumarWeb/Personal-Portfolio" livelink="https://its-chandan-portfolio.netlify.app/"/>
                 </div>
             </div>
 

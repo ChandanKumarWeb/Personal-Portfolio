@@ -18,8 +18,8 @@ function Projectbox(props) {
             <p className='box-pera'>{props.discription}</p>
         </div>
         <div className='buttons'>
-            <a href='blank' className='btn'> <FontAwesomeIcon icon={faGithub} /> GIT HUB</a>
-            <a href='blank' className='btn'> <FontAwesomeIcon icon={faDeskpro} />LIVE PREVIEW</a>
+            <a href={props.gitlink} className='btn'> <FontAwesomeIcon icon={faGithub} /> GIT HUB</a>
+            <a href={props.livelink} className='btn'> <FontAwesomeIcon icon={faDeskpro} />LIVE PREVIEW</a>
         </div>
     </div>
   )
