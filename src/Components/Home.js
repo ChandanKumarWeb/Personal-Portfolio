@@ -43,7 +43,7 @@ function Home() {
         <div className="col-lg-5 order-lg-2 order-1 image">
           <div className='animate__animated animate__bounce design'>
             <div className='animate__animated animate__bounce my-image'>
-              <img src={image} alt='my-image'></img>
+              <img src={image} alt=''/>
             </div>
           </div>
         </div>

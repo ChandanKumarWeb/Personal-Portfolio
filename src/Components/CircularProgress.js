@@ -19,14 +19,17 @@ const CircularProgress = ({ progressEndValue = 60, speed = 50, title = "Progress
       }
     );
 
-    if (circularProgressRef.current) {
-      observer.observe(circularProgressRef.current);
+    const currentRef = circularProgressRef.current; // Copy the ref value to a local variable
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (circularProgressRef.current) {
-        observer.unobserve(circularProgressRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef); // Use the local variable instead of the ref directly
       }
+      observer.disconnect(); // Disconnect observer on cleanup to prevent memory leaks
     };
   }, []);
 
@@ -43,7 +46,7 @@ const CircularProgress = ({ progressEndValue = 60, speed = 50, title = "Progress
       }, speed);
 
       return () => {
-        clearInterval(progressInterval);
+        clearInterval(progressInterval); // Cleanup the interval on component unmount or visibility change
       };
     }
   }, [isVisible, progressEndValue, speed]);
