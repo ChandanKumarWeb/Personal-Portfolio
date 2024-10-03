@@ -19,7 +19,7 @@ function Home() {
           <p className='sub-head'>Find Me On :</p>
           <div className='social-media'>
             <FontAwesomeIcon icon={faFacebook} className='facebook-icon' />
-            <a href='https://www.instagram.com/iamchandankumar______/'><FontAwesomeIcon icon={faInstagram} className='instagram-icon' /></a>
+            <a href='https://www.instagram.com/iamchandankumar__/'><FontAwesomeIcon icon={faInstagram} className='instagram-icon' /></a>
             <FontAwesomeIcon icon={faTwitter} className='twitter-icon' />
             <FontAwesomeIcon icon={faLinkedin} className='linkedin-icon' />
           </div>
