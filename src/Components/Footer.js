@@ -11,7 +11,7 @@ function Footer() {
     <div className='footer'>
       <div className='footer-social'>
         <FontAwesomeIcon icon={faFacebook} className='facebook-icon' />
-        <a href='https://www.instagram.com/iamchandankumar______/'><FontAwesomeIcon icon={faInstagram} className='instagram-icon' /></a>
+        <a href='https://www.instagram.com/iamchandankumar__/'><FontAwesomeIcon icon={faInstagram} className='instagram-icon' /></a>
         <FontAwesomeIcon icon={faTwitter} className='twitter-icon' />
          <FontAwesomeIcon icon={faLinkedin} className='linkedin-icon' />
       </div>
