@@ -16,19 +16,19 @@ function Skills() {
                             <CircularProgress progressEndValue={90} speed={30} title="HTML" />
                         </div>
                         <div className='col bar'>
-                            <CircularProgress progressEndValue={80} speed={30} title="CSS, Sass & Bootstrap" />
+                            <CircularProgress progressEndValue={80} speed={30} title="CSS, Tailwind & Bootstrap" />
                         </div>
                         <div className='col bar'>
-                            <CircularProgress progressEndValue={60} speed={30} title="Js, TypeScript & JQuery" />
+                            <CircularProgress progressEndValue={70} speed={30} title="Js & TypeScript " />
                         </div>
                         <div className='col bar'>
-                            <CircularProgress progressEndValue={80} speed={30} title="UI Design In Figma" />
+                            <CircularProgress progressEndValue={60} speed={30} title="UI Design In Figma" />
                         </div>
                         <div className='col bar'>
-                            <CircularProgress progressEndValue={50} speed={30} title="React" />
+                            <CircularProgress progressEndValue={70} speed={30} title="ReactJs" />
                         </div>
                         <div className='col bar'>
-                            <CircularProgress progressEndValue={40} speed={30} title="ReactNative" />
+                            <CircularProgress progressEndValue={40} speed={30} title="NextJs" />
                         </div>
                     </div>
                 </div>
