@@ -20,7 +20,7 @@ function Projects() {
                     <Projectbox  image={portfolio_img} title="Landing Page For Frontend Developer" discription="Responsive HTML/CSS layout for my Introduction HTML5, CSS3 (SCSS)" gitlink="https://chandan-kumar-ray-portfolio.netlify.app/#" livelink="https://chandan-kumar-ray-portfolio.netlify.app/"/>
                 </div>
                 <div class="col card-col">
-                    <Projectbox  image={scramble_img} title="Website For Fun In Free Time" discription="Responsive HTML/CSS layout for Fun HTML5, CSS3 (SCSS)" gitlink="https://github.com/ChandanKumarWeb/scramble_word_js" livelink="https://srcramble-game.netlify.app/"/>
+                    <Projectbox  image={scramble_img} title="Dashboard With Curd Operations" discription="Dashboard built with React JS, Chart.js, and Tailwind CSS." gitlink="https://github.com/ChandanKumarWeb/Dasboard" livelink="https://proffesional-dashboard-demo.netlify.app/dashboard"/>
                 </div>
                 <div class="col card-col">
                     <Projectbox  image={react_portfolio} title="Portfolio Using React" discription="Resposive Portfolio Website using HTML, CSS, BOOTSTRAP, REACT JS" gitlink="https://github.com/ChandanKumarWeb/Personal-Portfolio" livelink="https://its-chandan-portfolio.netlify.app/"/>
