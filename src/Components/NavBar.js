@@ -2,7 +2,7 @@ import React ,{useState} from 'react'
 import { Link } from 'react-scroll'
 import '../Style.css'
 // import Services from './Services';
-import cvPdf from '../Images/Projects/Chandan_Resume.pdf';
+import cvPdf from '../Images/Projects/Chandan_Resume_2025.pdf';
 function Navbar() {
     const[nav,setNav]=useState(false);
     const changeBackground = () =>{
