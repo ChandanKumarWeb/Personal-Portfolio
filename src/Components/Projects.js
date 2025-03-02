@@ -3,7 +3,7 @@ import "../Style.css";
 import trading_img from "../Images/Projects/trading-web.jpg";
 import furniro_img from "../Images/Projects/Furniro-img.jpg";
 import scramble_img from "../Images/Projects/Scramble-word.jpg";
-import react_portfolio from "../Images/Projects/react-portfolio.jpg";
+import seam from "../Images/Projects/SeamProject.webp"
 import Projectbox from "./Projectbox";
 
 function Projects() {
@@ -13,6 +13,15 @@ function Projects() {
         <p className="small-heading"> MY PROJECTS</p>
         <p className="heading">What I Have Done</p>
         <div class="row row-cols-1 row-cols-lg-2 gy-5 g-lg-5 pt-4">
+        <div class="col card-col">
+            <Projectbox
+              image={seam}
+              title="SEAM Services Website"
+              discription="Next.js-powered responsive SEAM Services website."
+              gitlink="https://github.com/ChandanKumarWeb/SEAM"
+              livelink="https://seam-services.netlify.app/"
+            />
+          </div>
           <div class="col card-col">
             <Projectbox
               image={furniro_img}
@@ -38,15 +47,6 @@ function Projects() {
               discription="Dashboard built with React JS, Chart.js, and Tailwind CSS."
               gitlink="https://github.com/ChandanKumarWeb/Dasboard"
               livelink="https://proffesional-dashboard-demo.netlify.app/"
-            />
-          </div>
-          <div class="col card-col">
-            <Projectbox
-              image={react_portfolio}
-              title="Portfolio Using React"
-              discription="Resposive Portfolio Website using HTML, CSS, BOOTSTRAP, REACT JS"
-              gitlink="https://github.com/ChandanKumarWeb/Personal-Portfolio"
-              livelink="https://its-chandan-portfolio.netlify.app/"
             />
           </div>
         </div>
