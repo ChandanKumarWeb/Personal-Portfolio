@@ -12,10 +12,10 @@ function Home() {
     <div className="container border-bottom border-danger pb-5">
       <div className="row ">
         <div className="col-lg-7 order-lg-1 order-2">
-          <p className='sub-head'>Hell guys, <span className='intro-span'>I'm</span></p>
+          <p className='sub-head'>Hello guys, <span className='intro-span'>I'm</span></p>
           <h1 class="animate__animated animate__bounce name">Chandan Kumar</h1>
           <p className='sub-head'>Web Designer And Web Developer</p>
-          <p className='sub-pera'>I am fascinated by the ever-evolving world of web development and the impact it has on user experiences. I am committed to staying current with industry trends and continuously improving my skills.</p>
+          <p className='sub-pera'>I am passionate about the ever-evolving world of web development and its impact on user experiences. My goal is to stay ahead of industry trends, continuously enhance my skills, and create efficient, user-friendly web solutions.</p>
           <p className='sub-head'>Find Me On :</p>
           <div className='social-media'>
             <FontAwesomeIcon icon={faFacebook} className='facebook-icon' />
