@@ -13,7 +13,7 @@ function Footer() {
         <FontAwesomeIcon icon={faFacebook} className='facebook-icon' />
         <a href='https://www.instagram.com/iamchandankumar__/'><FontAwesomeIcon icon={faInstagram} className='instagram-icon' /></a>
         <FontAwesomeIcon icon={faTwitter} className='twitter-icon' />
-         <FontAwesomeIcon icon={faLinkedin} className='linkedin-icon' />
+        <a href='https://www.linkedin.com/in/chandan-d/'><FontAwesomeIcon icon={faLinkedin} className='linkedin-icon' /></a>
       </div>
       <div className='copyright'>
         <p>@ 2024 - Designed & Developed by Chandan Kumar</p>
