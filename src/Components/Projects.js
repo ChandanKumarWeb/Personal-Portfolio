@@ -37,7 +37,7 @@ function Projects() {
               title="Trading Website Landing Page"
               discription="Responsive HTML/CSS layout for online Trading HTML5, CSS3 (SCSS)"
               gitlink="https://github.com/ChandanKumarWeb/trading-demo-website"
-              livelink="https://demo-trading-web.netlify.app/trading-instrument"
+              livelink="https://demo-trading-web.netlify.app/"
             />
           </div>
           <div class="col card-col">
